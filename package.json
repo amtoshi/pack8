@@ -1,0 +1,22 @@
+{
+  "name": "pack8.node",
+  "version": "1.0.0",
+  "description": "packaging made simpler(static website)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashutosh Mane (Meta Identit)",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lottie-web": "^5.2.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  }
+}

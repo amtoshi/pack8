@@ -1,0 +1,167 @@
+<%- include partials/header.ejs %>
+  <%- include partials/nav.ejs %>
+
+    <body>
+
+
+      <!-- Page Content -->
+
+      <!-- /.container -->
+
+
+
+
+      <section class="section" style="padding-top: 10%;">
+
+
+
+
+        <div class="container">
+          <div class="row row1">
+            <div class="col-lg-6">
+              <h1 style="padding:20px; text-align: right;" class="title-blue">
+                Come join us over a cup of coffee to upgrade your packaging experience. </h1>
+              <br>
+              <br>
+
+
+            </div>
+
+
+            <div class="col-lg-6">
+              <img class="img-fluid" style="margin-right:0;" src="assets/contact_us.png" alt="">
+
+
+
+            </div>
+          </div>
+
+
+          <!-- tabs for the customer /supplier -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item tab_elements">
+              <a class="nav-link active title-blue-form" id="home-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="home"
+                aria-selected="true">Customer</a>
+            </li>
+            <li class="nav-item tab_elements">
+              <a class="nav-link title-blue-form" id="profile-tab" data-toggle="tab" href="#supplier" role="tab" aria-controls="profile"
+                aria-selected="false">Supplier</a>
+            </li>
+
+          </ul>
+
+<!-- Customerform -->
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="customer" role="tabpanel" aria-labelledby="home-tab">
+              <form action="/getcustomer" method="POST" >
+                <div class="form-element " style="width: 60%;">
+                  <input class="form-control form-control" type="text" placeholder="Name" name="Name" required>
+                </div>
+                
+                <div class="form-element" style="width: 70%;">
+                  <input class="form-control form-control" type="email" placeholder="example@gmail.com" name="eMail" required="true">
+                </div>
+                <div class="form-element" style="width: 70%;">
+
+                  <input class="form-control form-control" type="tel" placeholder="Phone" name="phone" required="true">
+                </div>
+
+
+                <div class="form-element" style="width: 50%;">
+                  <input class="form-control form-control" type="text" placeholder="Company Name" name="cName" required="true">
+                </div>
+                <div class="form-element" style="width: 50%;">
+                  <input class="form-control form-control" type="url" placeholder="Website" name="web" >
+                </div>
+                <div class="form-element">
+                  <textarea class=" form-control form-control" id="exampleFormControlTextarea1" placeholder="Annual Packaging Purchase Volume"
+                    rows="2" name="purchaseVolume" ></textarea>
+                </div>
+
+
+                <div class="form-element">
+                  <textarea class=" form-control form-control" id="exampleFormControlTextarea1" placeholder="Message" name="message" rows="8"></textarea>
+                </div>
+                <button type="submit" class="btn-text btn btn-custom">
+                  <div class=s tyle="margin: auto;">Get Quote</div>
+                </button>
+
+              </form>
+            </div>
+
+<!-- supplier form -->
+            <div class="tab-pane fade" id="supplier" role="tabpanel" aria-labelledby="profile-tab">
+              <form action="/getsupplier" method="POST" >
+                <div class="form-element " style="width: 60%;">
+                  <input class="form-control form-control" type="text" placeholder="Name" name="Name" required="true">
+                </div>
+                
+                <div class="form-element" style="width: 70%;">
+                  <input class="form-control form-control" type="email" placeholder="example@gmail.com" name="eMail" required="true">
+                </div>
+                <div class="form-element" style="width: 70%;">
+
+                  <input class="form-control form-control" type="tel" placeholder="Phone" name="phone" required="true">
+                </div>
+
+                <input class="form-control form-control form-element" style="width:50%; margin: 2% 0 2% 0;" type="text" placeholder="Company Name" name="cName" required="true">
+                <!-- <div class="form-element" style="width: 50%;">
+                  <input class="form-control form-control" type="text" placeholder="Company Name" name="cName" required="true">
+                </div> -->
+
+
+                <select id="ProductList" name="productList" class="form-control form-control" style="width: 50%;">
+                  <option value="Plastic Bottles & Jar">Select product</option>
+                  <option value="Plastic Bottles & Jar">Plastic Bottles & Jar</option>
+                  <option value="Glass Bottles & jar">Glass Bottles & jar</option>
+                  <option value="Metal Cans & Tin">Metal Cans & Tin</option>
+                  <option value="Caps & Closure">Caps & Closure</option>
+                  <option value="Dispensing System">Dispensing System</option>
+                  <option value="Tubes">Tubes</option>
+                  <option value="Thermoform Trays">Thermoform Trays</option>
+                  <option value="Flexible Pouches">Flexible Pouches</option>
+                  <option value="Corrugated Boxes">Corrugated Boxess</option>
+                  <option value="BOPP Tapes">BOPP Tapes</option>
+                </select>
+
+                <div class="form-element " style="width: 35%;">
+                  <input class="form-control form-control" type="text" placeholder="Production Capacity" name="productionCapacity">
+                </div>
+                <div class="form-element">
+                  <textarea class=" form-control form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="8" name="message" ></textarea>
+                </div>
+                <button type="submit" class="btn-text btn btn-custom">
+                  <div class="">Get Quote</div>
+                </button>
+
+              </form>
+
+
+
+             
+              
+            </div>
+
+
+
+
+          </div>
+      </section>
+
+
+
+
+      <%- include partials/footer.ejs %>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    </body>
+
+    </html>

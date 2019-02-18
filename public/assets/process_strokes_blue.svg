@@ -1,0 +1,29 @@
+
+<svg width="1440px" height="970px" viewBox="0 0 1440 970" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="-35.3672989%" x2="82.5687259%" y2="46.3144388%" id="linearGradient-1">
+            <stop stop-color="#69D8F9" offset="0%"></stop>
+            <stop stop-color="#38AFF1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="61.5278753%" y1="85.441035%" x2="15.0470466%" y2="85.441035%" id="linearGradient-2">
+            <stop stop-color="#65D4F9" offset="0%"></stop>
+            <stop stop-color="#3FB5F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="62.4698309%" y1="85.441035%" x2="13.6776304%" y2="85.441035%" id="linearGradient-3">
+            <stop stop-color="#64D4F9" offset="0%"></stop>
+            <stop stop-color="#3FB5F2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home_develop" transform="translate(0.000000, -3163.000000)" stroke-width="13">
+            <g id="process" transform="translate(-497.000000, 2943.000000)">
+                <path d="M487,227 L1699.87519,227 C1738.53512,227 1769.87519,258.340068 1769.87519,297 L1769.87519,469 C1769.87519,507.659932 1801.21526,539 1839.87519,539 L1973,539" id="blue_stroke_1" stroke="url(#linearGradient-1)"></path>
+                <path d="M454,282 L1279.87519,282 C1318.53512,282 1349.87519,313.340068 1349.87519,352 L1349.87519,524 C1349.87519,562.659932 1381.21526,594 1419.87519,594 L1553,594" id="blue_stroke_2" stroke="url(#linearGradient-1)"></path>
+                <path d="M454,996.265234 L572.269263,996.265234 C611.48148,996.265234 643.269263,964.477451 643.269263,925.265234 L643.269263,824 C643.269263,784.787783 675.057045,753 714.269263,753 L1484.79677,753 C1522.21403,753 1553.01548,782.425888 1554.72378,819.804126 L1558.41099,900.481827 C1560.11929,937.860066 1590.92075,967.285953 1628.338,967.285953 L1997.80377,967.285953" id="blue_stroke_3" stroke="url(#linearGradient-2)" transform="translate(1225.901886, 874.632617) scale(1, -1) translate(-1225.901886, -874.632617) "></path>
+                <path d="M0,1183.26523 L118.269263,1183.26523 C157.48148,1183.26523 189.269263,1151.47745 189.269263,1112.26523 L189.269263,1011 C189.269263,971.787783 221.057045,940 260.269263,940 L1030.79677,940 C1068.21403,940 1099.01548,969.425888 1100.72378,1006.80413 L1104.41099,1087.48183 C1106.11929,1124.86007 1136.92075,1154.28595 1174.338,1154.28595 L1543.80377,1154.28595" id="blue_stroke_4" stroke="url(#linearGradient-3)" transform="translate(771.901886, 1061.632617) scale(1, -1) translate(-771.901886, -1061.632617) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

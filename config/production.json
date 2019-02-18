@@ -1,0 +1,11 @@
+{
+    "app":{
+        "apiKey":{
+        "ss":"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"
+    },
+        "server": {
+        "port": 3000
+        }
+    }
+  }
+  

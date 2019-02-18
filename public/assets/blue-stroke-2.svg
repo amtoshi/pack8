@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1056px" height="326px" viewBox="0 0 1056 326" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>A50F1E99-7AC8-4B6E-8DE7-83DED537EEF3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="-35.3672989%" x2="82.5687259%" y2="46.3144388%" id="linearGradient-1">
+            <stop stop-color="#69D8F9" offset="0%"></stop>
+            <stop stop-color="#38AFF1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home_develop" transform="translate(0.000000, -3215.000000)" stroke="url(#linearGradient-1)" stroke-width="13">
+            <g id="process" transform="translate(-497.000000, 2926.000000)">
+                <path d="M454,296 L1279.87519,296 C1318.53512,296 1349.87519,327.340068 1349.87519,366 L1349.87519,538 C1349.87519,576.659932 1381.21526,608 1419.87519,608 L1553,608" id="blue_stroke_2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

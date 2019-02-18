@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1047px" height="228px" viewBox="0 0 1047 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>yellow_stroke_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="62.4698309%" y1="85.441035%" x2="13.6776304%" y2="85.441035%" id="linearGradient-1">
+            <stop stop-color="#FBD249" offset="0%"></stop>
+            <stop stop-color="#F5A623" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home_develop" transform="translate(0.000000, -3902.000000)" stroke="url(#linearGradient-1)" stroke-width="13">
+            <g id="process" transform="translate(-497.000000, 2926.000000)">
+                <path d="M0,1197.26523 L118.269263,1197.26523 C157.48148,1197.26523 189.269263,1165.47745 189.269263,1126.26523 L189.269263,1025 C189.269263,985.787783 221.057045,954 260.269263,954 L1030.79677,954 C1068.21403,954 1099.01548,983.425888 1100.72378,1020.80413 L1104.41099,1101.48183 C1106.11929,1138.86007 1136.92075,1168.28595 1174.338,1168.28595 L1543.80377,1168.28595" id="yellow_stroke_2" transform="translate(771.901886, 1075.632617) scale(1, -1) translate(-771.901886, -1075.632617) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
