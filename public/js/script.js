@@ -23,7 +23,7 @@ var animData = {
     rendererSettings: {
     progressiveLoad:false
     },
-    path: 'public/process.json'
+    path: 'process.json'
 };
 
 
