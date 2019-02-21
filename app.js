@@ -95,14 +95,14 @@ app.post('/getcustomer', (req, res) => {
 
     var msg = [{
         to: info.eMail,
-        from: 'noreply@pack8.in',
+        from: 'reach@pack8.in',
         subject: 'Simplifying packaging!globally.',
         text: 'Thanks for contacting pack8, lets simplify packaging together',
         html:customerMessageHTML,
     },
 
         {
-        to: 'induyadav018@gmail.com',
+        to: 'reach@pack8.in',
         from:'leads@pack8.in',
         subject:infoStringSubject,
         text: info.fName,
